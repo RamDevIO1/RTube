@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./src/Ubuntu.ttf') format('ttf');
+}
+
+
+:root {
+  --primary: #C72441;
+  --secondary: #AE1934;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+ 	scroll-behavior: smooth;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.bg-nav {
+  background-color: var(--secondary);
+  color: #fff;
+}
+.bg-dm {
+  background-color: var(--secondary);
+  color: #fff;
+  border: 1px solid white;
+}
+.dropdown-menu>li>a:hover {
+  background-image: none;
+  background-color: var(--primary) !important;
+}
+.dropdown-menu .active {
+    background-color: var(--primary) !important;
+}
+
+.footer {
+  text-align: center;
+  background-color: var(--primary);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+.footer .foot-text {
+  color: white;
+  margin: 10px;
+}
+.footer .foot-text a {
+  color: white;
+  text-decoration: none;
+}
+.footer .foot-text a:hover {
+  color: lightgray;
+}
